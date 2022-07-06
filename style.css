@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+#berners_lee{
+    border-radius: 50%;
+}
+#welcome{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#60ebeb 10%,#27ae60 90%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    
+}
+#inicio{
+    display:table-cell ;
+    vertical-align: middle;
+}
+.linha{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin:auto;
+}
+h1{
+    font-size: 45px;
+
+}
+#bio{
+    padding: 75px;
+    
+
+}
+#menu{
+    z-index: 10;
+    position: fixed;
+    background: linear-gradient(#27ae60  10%,#60ebeb 90%);
+    margin-top: 0px;
+    top:0px;
+    width: 100%;
+
+}
+.links{
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 25px;
+    list-style: none;
+}
+.links:hover{
+    font-size: 35px;
+    text-decoration: underline;
+    
+}
+#tim{
+    font-family: 'The Nautigal', cursive;
+}
+#contato iframe{
+    width: 100%;
+}
+#contato1 h3{
+    display:inline;
+}
